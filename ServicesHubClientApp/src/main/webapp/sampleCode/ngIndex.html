@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+	
+	
+<html ng-app="demoApp">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<script type="text/javascript" src="../lib/angular/angular.js"></script>
+<script type="text/javascript" src="../lib/angular-route/angular-route.js"></script>
+
+<script type="text/javascript">
+	var demoApp = angular.module('demoApp', []);		
+</script>
+
+<script type="text/javascript" src="./js/personController.js"></script>
+
+	
+</head>
+<body ng-controller="personController">
+
+	<div class="container" ng-init="names = [{name:'David', desc:''},{name:'MAX', desc:''}, {name:'MARTIN', desc:''}]">
+		This is a beautiful world.	
+		<br/>
+		Your Name please ? 
+		<input type="text" id="name" ng-model="userName"> 
+		{{userName}} 
+		
+		<ul>
+			<li ng-repeat="personName in names | orderBy:'name' | filter:userName" >{{personName.name}} </li>
+		</ul>
+		
+		<br />
+		<h2> Customer Information </h2>
+		
+		<!-- <select>
+			<option ng-repeat="customerNames in customers" ng-model="selectedCustomer">{{customerNames.name}}</option>  
+		</select>
+		
+		Selected item :  {{selectedCustomer}} -->
+		<ul>
+			<li ng-repeat="customerNames in customers | filter:selectedCustomer">{{customerNames.name}} - {{customerNames.city}} </li>
+		</ul>
+		
+	</div>
+	
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    
+    <script>
+        var ccs = {};
+    </script>
+    
+    <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular-route/angular-route.js"></script>
+
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+    <!-- Modules in order -->
+    <!-- Dependent Modules first -->
+    
+    <!-- Core Shell -->
+    <!--build:hosts-->
+    <script src="modules/shell/module.js"></script>
+    <script src="modules/shell/routes.js"></script>
+
+    <script src="modules/shell/controllers/homeController.js"></script>
+    <script src="modules/shell/controllers/navigationController.js"></script>
+    <script src="modules/shell/controllers/sidebarController.js"></script>
+    
+    <script src="modules/shell/directives/navigation.js"></script>
+    <script src="modules/shell/directives/shell.js"></script>
+    <script src="modules/shell/directives/sidebar.js"></script>
+    
+    
+</head>
+<body>
+    <!--Shell directive includes everything all UI content-->
+	<shell></shell>
+	<script>
+	    //Bootstrapped here to include shell module as the MAIN dependency
+	    angular.bootstrap(document, [ccs.shell.module.name]);
+	
+	    $(document).ready(function () {
+	        //Cleanzone init
+	        //App.init();
+	        console.log('The Service Hub Client Application is loaded properly..');
+	    });
+	</script>
+</body>
+</html>

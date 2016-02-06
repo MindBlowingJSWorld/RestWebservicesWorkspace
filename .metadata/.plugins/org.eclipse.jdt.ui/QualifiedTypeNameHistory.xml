@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="org.jvnet.hk2.annotations.Service"/>
+<fullyQualifiedTypeName name="org.glassfish.hk2.api.InjectionPointIndicator"/>
+<fullyQualifiedTypeName name="javax.inject.Inject"/>
+<fullyQualifiedTypeName name="org.playground.hk2ClientApp.HelloTeam"/>
+<fullyQualifiedTypeName name="org.playground.named.NamedInt"/>
+<fullyQualifiedTypeName name="org.playground.named.RedColorImpl"/>
+<fullyQualifiedTypeName name="org.playground.named.ColorFactory"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.lang.annotation.Retention"/>
+<fullyQualifiedTypeName name="java.lang.annotation.Target"/>
+<fullyQualifiedTypeName name="java.lang.annotation.ElementType"/>
+<fullyQualifiedTypeName name="net.sf.ehcache.CacheManager"/>
+<fullyQualifiedTypeName name="net.sf.ehcache.Cache"/>
+<fullyQualifiedTypeName name="javax.swing.text.html.parser.Element"/>
+<fullyQualifiedTypeName name="net.sf.ehcache.Element"/>
+</qualifiedTypeNameHistroy>

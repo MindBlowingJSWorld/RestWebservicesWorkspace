@@ -1,0 +1,23 @@
+<div ng-controller="simpleGameController">
+	<div>
+		<a href="#/page1"> To Visit Page1 -> Click Here</a>
+	</div>	
+	<div>
+		<a href="#/page2"> To Visit Page2 -> Click Here</a>
+	</div>
+	<div>
+		<a href="#/page3"> To Visit Page3 -> Click Here</a>
+	</div>
+	<div>
+		<a href="#/page4"> To Visit Page4 -> Click Here</a>
+	</div>
+	
+	
+	<br />
+	<br />
+	
+	<h2> Customer List </h2>
+	<ul>
+		<li ng-repeat="customer in customers"> {{customer.name}} - {{customer.city}}</li>
+	</ul>
+</div>

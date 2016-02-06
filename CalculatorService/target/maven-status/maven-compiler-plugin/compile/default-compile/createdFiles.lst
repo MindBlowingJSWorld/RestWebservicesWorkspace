@@ -1,0 +1,4 @@
+com\example\rest\calculators\RestCalculator.class
+com\example\rest\average\AverageModel.class
+com\example\rest\calculators\SimpleCalculator.class
+com\example\rest\average\AverageCalculator.class

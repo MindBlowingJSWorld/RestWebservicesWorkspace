@@ -1,0 +1,39 @@
+package org.rest.jersey.samples;
+
+import javax.ws.rs.FormParam;
+import javax.ws.rs.GET;
+import javax.ws.rs.HeaderParam;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.core.Response;
+
+
+@Path("/order")
+public class OrderServices {
+
+	@GET
+	public Response getOrder(
+			@HeaderParam("user-agent") String userAgent
+		) {
+		
+		StringBuilder html = new StringBuilder("<div>");
+		html.append("<p><The User Agents : " +  userAgent  + "</p>");
+		html.append("</div>")
+				
+		return Response.status(200).entity("This is default Order Status").build();	
+		
+		
+	}
+	
+	@POST
+	public Response postOrder(
+			@FormParam("name") String name,
+			@FormParam("order") String order
+			) {
+		
+		String content = "Order for Name : " + name + ", Order : " + order + " has been processed successfully";
+		return Response.status(200).entity(content).build();
+			
+	}
+	
+}

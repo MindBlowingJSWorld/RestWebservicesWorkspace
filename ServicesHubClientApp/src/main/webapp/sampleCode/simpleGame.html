@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+	
+	
+<html ng-app="gameApp">
+<head>
+<meta charset="ISO-8859-1">
+<title>Simple Game App</title>
+
+	<script type="text/javascript" src="../lib/angular/angular.js"></script>
+	<script type="text/javascript" src="../lib/angular-route/angular-route.js"></script>
+	
+	<script type="text/javascript">
+		var gameApp = angular.module('gameApp', ['ngRoute']);		
+	</script>
+	
+	<!-- Add all controllers -->
+	<script type="text/javascript" src="./js/controllers/page1Controller.js"></script>
+	<script type="text/javascript" src="./js/controllers/page2Controller.js"></script>
+	<script type="text/javascript" src="./js/controllers/page3Controller.js"></script>
+	<script type="text/javascript" src="./js/controllers/page4Controller.js"></script>
+	<script type="text/javascript" src="./js/controllers/simpleGameController.js"></script>
+	
+	
+	<!-- Add all the routers -->
+	<script type="text/javascript" src="./js/factories/CustomerGeneratorFactory.js"></script>
+	<script type="text/javascript" src="./js/services/DAOService.js"></script>
+	<script type="text/javascript" src="routes.js"></script>
+	
+</head>
+<body>
+	 <div class="container-fluid" id="pcont">
+            <ng-view></ng-view>
+      </div>
+
+</body>
+</html>

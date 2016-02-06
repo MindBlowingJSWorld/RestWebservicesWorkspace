@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+  <classpathentry kind="src" path="src/test/java" output="target/test-classes" including="**/*.java"/>
+  <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="var" path="M2_REPO/javax/inject/javax.inject/1/javax.inject-1.jar"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="var" path="M2_REPO/org/glassfish/hk2/hk2/2.4.0-b16/hk2-2.4.0-b16.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/glassfish/hk2/hk2-utils/2.4.0-b16/hk2-utils-2.4.0-b16.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/glassfish/hk2/hk2-api/2.4.0-b16/hk2-api-2.4.0-b16.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b16/aopalliance-repackaged-2.4.0-b16.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/glassfish/hk2/config-types/2.4.0-b16/config-types-2.4.0-b16.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/glassfish/hk2/hk2-config/2.4.0-b16/hk2-config-2.4.0-b16.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/glassfish/hk2/hk2-core/2.4.0-b16/hk2-core-2.4.0-b16.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/glassfish/hk2/hk2-locator/2.4.0-b16/hk2-locator-2.4.0-b16.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/glassfish/hk2/external/javax.inject/2.4.0-b16/javax.inject-2.4.0-b16.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/jvnet/tiger-types/1.4/tiger-types-1.4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/glassfish/hk2/external/bean-validator/2.4.0-b16/bean-validator-2.4.0-b16.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/glassfish/hk2/hk2-runlevel/2.4.0-b16/hk2-runlevel-2.4.0-b16.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/glassfish/hk2/class-model/2.4.0-b16/class-model-2.4.0-b16.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/glassfish/hk2/external/asm-all-repackaged/2.4.0-b16/asm-all-repackaged-2.4.0-b16.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/glassfish/hk2/hk2-metadata-generator/2.4.0-b16/hk2-metadata-generator-2.4.0-b16.jar"/>
+</classpath>
